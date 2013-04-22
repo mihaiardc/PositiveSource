@@ -1,0 +1,18 @@
+﻿@using PerpetuumSoft.Knockout
+@using PositiveBussinesModel.Members
+<script src="~/Scripts/jquery-1.8.2.js"></script>
+<script src="~/Scripts/knockout-2.2.1.js"></script>
+<script src="~/Scripts/knockout.mapping-latest.js"></script>
+<script src="~/Scripts/perpetuum.knockout.js"></script> 
+@model PositiveBussinesModel.Members.User 
+
+@{
+    var ko = Html.CreateKnockoutContext();
+}
+
+<p>First name: @ko.Html.TextBox(m => m.Nume)</p>
+<p>Last name: @ko.Html.TextBox(m => m.Prenume)</p>
+<h2>Hello, @ko.Html.Span(m => m.Oras)!</h2>
+@ko.Html.Button("SaveUser", "SaveUser", "Home")
+@ko.Apply(Model)
+

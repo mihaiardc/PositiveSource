@@ -1,0 +1,56 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PositiveBussinesModel", "PositiveBussinesModel\PositiveBussinesModel.csproj", "{BC8C18F6-8115-49E2-9ED7-D2A7D0E9C00C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PositiveWeb", "PositiveWeb\PositiveWeb.csproj", "{A30EE3C9-2CD9-4ACA-9354-863503933D7E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleTests", "ConsoleTests\ConsoleTests.csproj", "{1130EF47-D4B9-4288-96AF-500AC6EE83A8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BussinesModelTests", "BussinesModelTests\BussinesModelTests.csproj", "{9A6C00C6-C21A-43C8-8731-8D1BF833FFDA}"
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 5
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://nerdscomputing.visualstudio.com/defaultcollection
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = PositiveBussinesModel\\PositiveBussinesModel.csproj
+		SccProjectName1 = PositiveBussinesModel
+		SccLocalPath1 = PositiveBussinesModel
+		SccProjectUniqueName2 = PositiveWeb\\PositiveWeb.csproj
+		SccProjectName2 = PositiveWeb
+		SccLocalPath2 = PositiveWeb
+		SccProjectUniqueName3 = ConsoleTests\\ConsoleTests.csproj
+		SccProjectName3 = ConsoleTests
+		SccLocalPath3 = ConsoleTests
+		SccProjectUniqueName4 = BussinesModelTests\\BussinesModelTests.csproj
+		SccProjectName4 = BussinesModelTests
+		SccLocalPath4 = BussinesModelTests
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BC8C18F6-8115-49E2-9ED7-D2A7D0E9C00C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BC8C18F6-8115-49E2-9ED7-D2A7D0E9C00C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BC8C18F6-8115-49E2-9ED7-D2A7D0E9C00C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BC8C18F6-8115-49E2-9ED7-D2A7D0E9C00C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A30EE3C9-2CD9-4ACA-9354-863503933D7E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A30EE3C9-2CD9-4ACA-9354-863503933D7E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A30EE3C9-2CD9-4ACA-9354-863503933D7E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A30EE3C9-2CD9-4ACA-9354-863503933D7E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1130EF47-D4B9-4288-96AF-500AC6EE83A8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1130EF47-D4B9-4288-96AF-500AC6EE83A8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1130EF47-D4B9-4288-96AF-500AC6EE83A8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1130EF47-D4B9-4288-96AF-500AC6EE83A8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9A6C00C6-C21A-43C8-8731-8D1BF833FFDA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9A6C00C6-C21A-43C8-8731-8D1BF833FFDA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9A6C00C6-C21A-43C8-8731-8D1BF833FFDA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9A6C00C6-C21A-43C8-8731-8D1BF833FFDA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
